@@ -1,12 +1,11 @@
 package :gems do
   description 'Gems for Ruby'
 
-  gem 'SystemTimer mysql rails'
+  gem 'mysql2 rails bundler'
 
   requires :ruby
 
   verify do
-    ruby_can_load 'mysql'
-    ruby_can_load 'system_timer'
+    ruby_can_load 'mysql2'
   end
 end

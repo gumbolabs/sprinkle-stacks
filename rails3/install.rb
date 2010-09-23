@@ -12,7 +12,6 @@ policy :linode, :roles => :app do
   requires :apache
   requires :database
   requires :gems
-  requires :monit
   requires :passenger
   requires :ruby
   requires :scm
